@@ -1,7 +1,6 @@
 import React from 'react'
 import Parser from 'react-html-parser';
 import Button from '@mui/material/Button';
-import axios from 'axios'
 import { deleteData, addMovie } from '../helperFunctions';
 
 const Movie = (props) => {

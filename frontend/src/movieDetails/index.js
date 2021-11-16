@@ -21,12 +21,8 @@ const MovieDetails = () => {
             </div>
             <div>
                 <span style={{ fontWeight: '600', fontSize: '24px' }}>{pickedMovie.name} </span> <br />
-                {/* <span>{props.movie.show.genres.join(', ')} | {props.movie.show.runtime} minutes</span><br /> */}
                 <span>{Parser(pickedMovie.description)}</span><br />
-                {/* <a href={props.movie.show.url} >visit official site</a><br /> */}
-
                 <Button color='error' variant="outlined" style={{ marginTop: '10px' }} onClick={() => deleteData(pickedMovie.id)} >Delete from favourites</Button>
-
             </div>
 
         </div>

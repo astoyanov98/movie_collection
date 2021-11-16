@@ -1,6 +1,5 @@
 import React from 'react'
 import './style.css'
-import logo from './venom.jpg'
 
 const Heading = () => {
     return (
