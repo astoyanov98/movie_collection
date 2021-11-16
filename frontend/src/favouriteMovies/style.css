@@ -1,0 +1,15 @@
+.favoriteTitle {
+    font-weight: 600;
+    font-size: 4em;
+}
+
+.favouriteMovie {
+    display: inline-block;
+    margin: 20px;
+}
+
+.favouriteMovie:hover {
+    height: 110%;
+    cursor: pointer;
+    transform: scale(1.1);
+}

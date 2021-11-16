@@ -1,0 +1,30 @@
+.collection {
+    text-align: left;
+    font-weight: 600;
+    font-size: 28px;
+
+}
+
+.headerContainer {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    color: white;
+    background-color: #436CA4;
+}
+
+.inputHeader {
+    background-color: white;
+    width: 20vw;
+    border-radius: 10px;
+}
+
+.buttonHeader {
+    width: 10vw;
+    padding: 15px 0px !important;
+    margin-left: 20px !important;
+    border-color: #3CB371 !important;
+    border-radius: 15px !important;
+    color: #3CB371 !important;
+    font-weight: 600 !important;
+}

@@ -1,0 +1,15 @@
+.headingContainer {
+    background-image: url("./venom.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    height: 60vh;
+}
+
+.title {
+    color: #fff;
+    display: inline-block;
+    padding-top: 20vh;
+    font-weight: 600;
+    font-size: 5em;
+}
